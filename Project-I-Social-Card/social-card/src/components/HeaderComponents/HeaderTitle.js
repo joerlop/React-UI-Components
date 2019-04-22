@@ -3,11 +3,15 @@ import './Header.css';
 
 let currentDate = new Date();
 
+const monthNames = ["January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+];
+
 function HeaderTitle() {
     return (
         <div className="header-title">
-            <h2>Lambda School</h2>
-            <p>@LambdaSchool | ${currentDate.getDate()}</p>
+            <h3>Lambda School</h3>
+            <p>@LambdaSchool | {currentDate.getDate()} {monthNames[currentDate.getMonth()]}</p>
         </div>                
     );
 }

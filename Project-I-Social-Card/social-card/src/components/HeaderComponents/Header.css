@@ -1,1 +1,17 @@
 /* All styles for your header Components live here */
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.header-container img {
+    height: 50px;
+    width: 50px;
+}
+
+.header-container .header-title p {
+    font-size: 14px;
+    color: grey;
+}
