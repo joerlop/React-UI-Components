@@ -5,6 +5,8 @@
     border-radius: 5px;
     width: 500px;
     border: 1px solid lightgrey;
+    text-decoration: none;
+    color: black;
 }
 
 .card-container img {
