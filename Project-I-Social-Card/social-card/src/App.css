@@ -2,6 +2,30 @@
   Write your styles/CSS for App.js here and import into the component that you need 
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
- .app {
-   width: 600px;
- }
+
+* {
+  box-sizing: border-box;
+}
+  
+html, body {
+  margin: 0; 
+  padding: 0;
+}
+
+.app {
+  margin: 10px;
+  width: 570px;
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  grid-template: 2fr 6fr 1fr;
+  grid-template-areas: 
+    "header-container   header-container"
+    "header-container   header-container"
+    ".                  card"
+    ".                  card"
+    ".                  card"
+    ".                  card"
+    ".                  card"
+    ".                  card"
+    ".                  socialmedia-container"
+}

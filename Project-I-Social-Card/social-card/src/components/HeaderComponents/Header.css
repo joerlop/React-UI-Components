@@ -1,17 +1,40 @@
 /* All styles for your header Components live here */
 
 .header-container {
+    grid-area: header-container;
     display: flex;
     flex-direction: row;
-    align-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 10px;
 }
 
 .header-container img {
-    height: 50px;
-    width: 50px;
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.header-container .header-title {
+    display: flex;
+    align-items: center;
+}
+
+.header-container .header-title h3 {
+    margin: 0 7.5px 0 0;
+    font-size: 15px;
 }
 
 .header-container .header-title p {
     font-size: 14px;
     color: grey;
+    margin: 0;
+}
+
+.header-content {
+    width: 500px;
+}
+
+.header-content p {
+    margin: 7.5px 0 0 0;
+    font-size: 15px;
 }
