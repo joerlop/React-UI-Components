@@ -1,2 +1,12 @@
 import React from 'react';
-import './Display.css';
+import './Display.scss';
+
+const CalculatorDisplay = () => {
+    return (
+        <div class="display-container">
+            <p>0</p>
+        </div>
+    ); 
+};
+
+export default CalculatorDisplay;

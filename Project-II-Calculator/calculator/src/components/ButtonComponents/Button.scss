@@ -1,0 +1,45 @@
+.button-container {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-wrap: nowrap;
+    border: 2px solid lightgray;
+    border-top: none;
+
+    .action-button {
+        grid-area: action;
+
+        button {
+            height: 100px;
+            width: 100px;
+            border: 2px solid lightgray;
+            background: #A0001E;
+            color: white;
+        }
+    }
+
+    .number-button {
+        grid-area: number;
+
+        button {
+            height: 100px;
+            width: 100px;
+            border: 2px solid lightgray;
+            background: white;
+            color: black;
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        #zero {
+            width: 300px;
+        }
+
+        #clear {
+            width: 300px;
+            background: white;
+            color: black;
+            font-weight: normal;
+        }
+    }
+}
