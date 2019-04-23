@@ -44,12 +44,12 @@ const equal = {text: "=",
     buttonStyle: "operation eqaul"};
 
 
-const ButtonContainer = () => {
+const ButtonContainer = (props) => {
     return (
         <div className="button-container">
             <ActionButton actionProp={actions[0]} />
             {numbers.map(number => {
-                return <NumberButton numberProp={number} />;
+                return <NumberButton stateProp={props} numberProp={number} />;
             })}
             <ActionButton actionProp={actions[1]} />
             <NumberButton numberProp={equal} />

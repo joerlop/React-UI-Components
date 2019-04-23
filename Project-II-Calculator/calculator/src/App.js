@@ -15,8 +15,8 @@ class App extends React.Component {
   render() {
     return (
       <div className="main-container">
-        <CalculatorDisplay />
-        <ButtonContainer />
+        <CalculatorDisplay calcProp={this.state}/>
+        <ButtonContainer buttonProp={this.state}/>
       </div>)
   };
 }
