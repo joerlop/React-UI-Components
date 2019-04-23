@@ -1,45 +1,42 @@
 .button-container {
     width: 400px;
-    height: 500px;
+    height: 320px;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     border: 2px solid lightgray;
     border-top: none;
 
-    .action-button {
-        grid-area: action;
-
-        button {
-            height: 100px;
-            width: 100px;
-            border: 2px solid lightgray;
-            background: #A0001E;
-            color: white;
-        }
+    .action {
+        height: 80px;
+        width: 300px;
+        border: 2px solid lightgray;
+        background: white;
+        color: black;
+        font-weight: bold;
+        font-size: 40px;     
     }
 
-    .number-button {
-        grid-area: number;
+    .clear {
+        font-weight: normal;
+    }
 
-        button {
-            height: 100px;
-            width: 100px;
-            border: 2px solid lightgray;
-            background: white;
-            color: black;
-            font-weight: bold;
-            font-size: 40px;
-        }
+    .number {
+        height: 80px;
+        width: 100px;
+        border: 2px solid lightgray;
+        background: white;
+        color: black;
+        font-weight: bold;
+        font-size: 40px;
+    }
 
-        #zero {
-            width: 300px;
-        }
-
-        #clear {
-            width: 300px;
-            background: white;
-            color: black;
-            font-weight: normal;
-        }
+    .operation {
+        height: 80px;
+        width: 100px;
+        border: 2px solid lightgray;
+        background: #A0001E;
+        color: white;
+        font-weight: bold;
+        font-size: 40px;    
     }
 }

@@ -3,7 +3,7 @@ import './Display.scss';
 
 const CalculatorDisplay = () => {
     return (
-        <div class="display-container">
+        <div className="display-container">
             <p>0</p>
         </div>
     ); 
