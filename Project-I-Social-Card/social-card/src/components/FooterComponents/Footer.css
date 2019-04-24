@@ -1,0 +1,22 @@
+.footer-container {
+    grid-area: socialmedia-container;
+    margin-top: 20px;
+    color: #808090;
+    display: flex; 
+}
+
+.footer-container i {
+margin-left: 65px;
+}
+
+.footer-container :first-child {
+    margin-left: 0; 
+}
+
+.footer-container p {
+    margin: 0 0 0 7.5px;
+}
+
+.no-show {
+    display: none;
+}

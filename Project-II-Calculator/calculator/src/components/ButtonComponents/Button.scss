@@ -1,0 +1,42 @@
+.button-container {
+    width: 400px;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid lightgray;
+    border-top: none;
+
+    .action {
+        height: 80px;
+        width: 300px;
+        border: 2px solid lightgray;
+        background: white;
+        color: black;
+        font-weight: bold;
+        font-size: 40px;     
+    }
+
+    .clear {
+        font-weight: normal;
+    }
+
+    .number {
+        height: 80px;
+        width: 100px;
+        border: 2px solid lightgray;
+        background: white;
+        color: black;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .operation {
+        height: 80px;
+        width: 100px;
+        border: 2px solid lightgray;
+        background: #A0001E;
+        color: white;
+        font-weight: bold;
+        font-size: 40px;    
+    }
+}
